@@ -1,0 +1,104 @@
+PCBNEW-LibModule-V1  Tue 25 Feb 2014 06:12:36 PM NZDT
+# encoding utf-8
+Units mm
+$INDEX
+LED-7SEG-4DIGIT
+$EndINDEX
+$MODULE LED-7SEG-4DIGIT
+Po 0 0 0 15 530C25F5 00000000 ~~
+Li LED-7SEG-4DIGIT
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 1 1 0 0.15 N V 21 N "LED-7SEG-4DIGIT"
+T1 0 -2.54 1 1 0 0.15 N V 21 N "VAL**"
+DS -25.4 -8.89 25.4 -8.89 0.15 21
+DS 25.4 -8.89 25.4 8.89 0.15 21
+DS 25.4 8.89 -25.4 8.89 0.15 21
+DS -25.4 8.89 -25.4 -8.89 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 7.62
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 7.62
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 7.62
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 7.62
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 7.62
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 7.62
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -7.62
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -7.62
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -7.62
+$EndPAD
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -7.62
+$EndPAD
+$PAD
+Sh "11" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -7.62
+$EndPAD
+$PAD
+Sh "12" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -7.62
+$EndPAD
+$EndMODULE LED-7SEG-4DIGIT
+$EndLIBRARY

@@ -1,0 +1,81 @@
+# KiCAD specific files
+**/*.bak            # Backup files
+**/*.tmp            # Temporary files
+**/*.kicad_pcb-bak  # PCB backup files
+**/*.kicad_prl      # KiCAD cache project file
+**/*.kicad_sch-bak  # Schematic backup files
+*.pro~              # KiCAD project backup files
+*.sch~              # KiCAD schematic backup files
+*.pcb~              # KiCAD PCB backup files
+*.cmp               # Component position file
+*-rescue.*          # KiCAD rescue backup files
+*-bkp/              # Backup folders created by KiCAD
+*.wrl               # Exported VRML models
+
+# KiCAD generated files
+*.net               # Netlist files
+*.xml               # BOM export files
+*.xsl               # BOM stylesheet files
+*.rpt               # Report files
+*.ps                # PostScript exports
+*.pdf               # Generated PDFs
+*.svg               # Generated SVGs
+*.png               # Generated PNGs
+*.step              # STEP model files
+*.iges              # IGES model files
+*.3dshapes          # Custom 3D models
+
+# macOS specific files
+.DS_Store           # macOS system files
+._*                 # macOS resource fork files
+.AppleDouble
+.Trashes
+Thumbs.db           # Windows thumbnail cache files
+
+# Firmware / build files
+/build/             # Typical build output folder
+/out/               # Output binaries
+*.elf               # Executable and Linkable Format
+*.hex               # Intel Hex format
+*.bin               # Raw binary format
+*.map               # Map files
+*.obj               # Object files
+*.o                 # Object files
+*.d                 # Dependency files
+*.a                 # Static library files
+*.lib               # Library files
+*.log               # Logs
+*.dep               # Dependency files
+
+# IDE specific
+.vscode/            # VSCode settings
+.idea/              # JetBrains IDE settings
+*.swp               # Vim swap files
+*.swo
+*.un~               # Vim undo files
+*.bak               # Backup files
+*.tmp               # Temp files
+
+# Compiler specific
+*.dSYM/             # macOS debug files
+*.vcxproj*          # Visual Studio project files
+*.user              # Visual Studio user-specific files
+*.ncb
+*.sdf
+*.opensdf
+*.vs/
+
+# Misc
+tags                # CTags files
+*.out               # General output files
+*.log               # Log files
+*.tmp               # Temporary files
+*.lock              # Lock files
+
+# Ignore archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
